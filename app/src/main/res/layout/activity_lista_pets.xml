@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="br.com.amorempatas.listaPets"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/background">
+
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+        android:layout_weight="1.14">
+    </ListView>
+    <Button
+        android:id="@+id/btnNovoPet"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="adicionar pet"
+        android:background="#FFF04F"
+        android:textColor="#8D0040"/>
+
+</LinearLayout>
